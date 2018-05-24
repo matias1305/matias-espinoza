@@ -1,0 +1,133 @@
+.portafolio {
+  background: $claro;
+  border-top: 5px solid #3da5e2;
+  padding: 0 20px;
+  margin-bottom: 40px;
+
+  .titulo {
+    padding: 40px 0;
+    text-align: center;
+    color: #3da5e2;
+    font-weight: 300;
+  }
+
+  .galeria {
+    .contenedor-imagen {
+      margin-bottom: 40px;
+      max-height: 180px;
+      overflow: hidden;
+
+      a {
+        display: inline-block;
+        background: #3da5e2;
+      }
+
+      &:hover { img { opacity: .3; } }
+    }
+  }
+}
+
+// Acerca de
+.acerca-de {
+  padding: 30px;
+  margin-bottom: 40px;
+  
+  .foto {
+    text-align: center;
+
+    img { margin-bottom: 30px; }
+    .nombre { 
+      color: $claro; 
+      font-weight: 300;
+      font-size: 18px;
+      letter-spacing: 2px;
+    }
+  }
+
+  .info {
+    .titulo {
+      color: #3da5e2;
+      font-weight: 300;
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+
+    .resumen {
+      letter-spacing: 1px;
+      color: $claro;
+    }
+
+    .label {
+      font-size: 18px;
+      font-weight: 600;
+      color: $claro;
+      margin-bottom: 10px;
+    }
+
+    .progress {
+      background: #005385;
+      border-radius: 0;
+      margin-bottom: 15px;
+    }
+
+    .progress-bar {
+      height: 25px;
+      background: #3da5e2;
+      line-height: 25px;
+      text-align: left;
+      padding-left: 20px;
+    }
+  }
+}
+
+// Contacto
+.contacto {
+  padding: 40px 0;
+  border-top: 1px solid #cbcbcb;
+  margin-bottom: 40px;
+
+  .titulo {
+    color: #3da5e2;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 0;
+  }
+}
+
+.formulario input[type='text'],
+.formulario input[type='email'],
+.formulario textarea {
+  padding: 15px;
+  border: none;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.formulario {
+  textarea {
+    height: 150px;
+    min-height: 150px;
+    max-height: 250px;
+  }
+}
+
+.formulario {
+  .boton {
+    background: #3da5e2;
+    border: none;
+    padding: 7px 30px;
+    cursor: pointer;
+    width: auto;
+    border-radius: 3px;
+    color: $claro;
+
+    &:hover {
+      background: #1ba0ef;
+    }
+  }
+}

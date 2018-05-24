@@ -1,3 +1,5 @@
+// Use Jquery
+
 // el menu comienza desaparecido.
 $('.container-menu').hide();
 // trasladamos el menu 100% a la izquierda (fuera de la pantalla).
