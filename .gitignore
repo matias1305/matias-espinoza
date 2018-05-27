@@ -1,8 +1,4 @@
 
-
-
-assets/scss/
-assets/css/lib/fontawesome/web-font-with-css
-assets/css/lib/fontawesome/use-with-node-js/fontawesome-free-webfonts
 assets/css/style.css.map
+assets/scss/
 .sass-cache
