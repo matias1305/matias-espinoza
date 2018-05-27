@@ -1,0 +1,69 @@
+// ----------------------
+// Header
+// ----------------------
+header {
+  margin-top: 30px;
+
+  // estilos glogales del nav
+  .nav {
+    min-height: 80px;
+    overflow: hidden;
+    background: $claro;
+  }
+
+  // estilos del logo
+  .logo {
+     h2, p, span {
+       font-size: 16px;
+       display: inline;
+       margin: 0;
+     }
+
+     .icono {
+       width: 100px;
+     }
+
+     h2 {
+       font-weight: 800;
+       text-transform: uppercase;
+     }
+
+     span {
+       color: #bfbfbf;
+     }
+
+     p {
+       color: #777;
+     }
+  }
+
+  // estilos del menu de navegacion
+  .menu {
+    padding: 0;
+
+    a {
+      display: block;
+      text-decoration: none;
+      color: $claro;
+      padding: 0 30px;
+
+      div {
+        span {
+          font-weight: 600;
+        }
+      }
+    }
+    // colores del menu de navegacion.
+    .c-1 { background: #3da5d2; &:hover { background: #1ba0ef; } }
+    .c-2 { background: #005385; &:hover { background: #00466a; } }
+    .c-3 { background: #003855; &:hover { background: #002d44; } }
+  }
+}
+
+.slider {
+  margin-bottom: 40px;
+
+  .col {
+    padding: 0;
+  }
+}

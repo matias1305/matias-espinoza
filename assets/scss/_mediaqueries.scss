@@ -1,0 +1,49 @@
+@media screen and (max-width: 991px) {
+  .logo {
+    height: 76px;
+  }
+
+  .menu {
+    min-height: 76px;
+
+    a {
+      width: 100%;
+
+      div {
+        width: 100%;
+        padding: 10px 0;
+      }
+    }
+  }
+
+  .modal .modal-dialog {
+    width: 90%;
+
+    .modal-content {
+      width: 100%;
+    }
+  }
+}
+
+
+@media screen and (max-width: 575px) {
+  header {
+    margin-top: 0;
+    text-align: center;
+
+    .logo {
+      h2, p {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .redes-sociales {
+     .icono {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+     }
+ }
+}
