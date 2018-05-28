@@ -1,0 +1,1 @@
+$(document).ready(function(){$('a[href^="#a"]').click(function(){var t=$(this.hash);return 0==t.length&&(t=$('a[name="'+this.hash.substr(1)+'"]')),0==t.length&&(t=$("html")),$("html, body").animate({scrollTop:t.offset().top},1e3),!1})});
