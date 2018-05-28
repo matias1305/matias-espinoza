@@ -98,26 +98,26 @@
 					<h2 class="titulo"> Portafolio </h2>
 					<div class="row galeria justify-content-center wow zoomIn">
 						<div class="contenedor-imagen col-6 col-lg-4">
-							<a href="" data-toggle="modal" data-target="#modal">
+							<!-- <a href="#"> -->
 								<img src="./assets/images/slider/slide-1.png" 
 									  alt="" 
 								     class="img-fluid imagen">
-							</a>
+							<!-- </a> -->
 						</div>
 
 						<div class="contenedor-imagen col-6 col-lg-4 wow zoomIn">
-							<a href="" data-toggle="modal" data-target="#modal">
+							<!-- <a href="#"> -->
 								<img src="./assets/images/slider/slide-2.png" 
 									  alt="" 
 								     class="img-fluid imagen">
-							</a>
+							<!-- </a> -->
 						</div>
 						<div class="contenedor-imagen col-6 col-lg-4 wow zoomIn">
-							<a href="" data-toggle="modal" data-target="#modal">
+							<!-- <a href="#"> -->
 								<img src="./assets/images/slider/slide-3.png" 
 									  alt="" 
 								     class="img-fluid imagen">
-							</a>
+							<!-- </a> -->
 						</div>
 					</div>
 				</div>
@@ -205,15 +205,6 @@
 		</div>
 	</main>
 
-	<!-- Modal Imagenes -->
-	<div class="modal fade bd-example-modal-lg" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	   <div class="modal-dialog d-flex justify-content-center align-items-center modal-dialog modal-lg">
-			<div class="modal-content">
-				<img src="" alt="" id="imagen-modal">
-			</div>
-		</div>
-	</div>
-
 	<footer class="wow fadeIn">
 		<!-- Redes Sociales -->
 		<div class="container-fluid">
@@ -244,7 +235,6 @@
 	<script src="assets/js/lib/Popper.js/popper.min.js">    </script>
 	<script src="assets/js/lib/bootstrap/bootstrap.min.js"> </script>
 	<script src="assets/js/lib/WOW/dist/wow.min.js">        </script>
-	<script src="assets/js/modal-img.js">                   </script>
 	<script src="assets/js/wow-init.js">                    </script>
 	<script src="assets/js/scroll.js">                      </script>
 	<script src="assets/js/validar-form.js">                </script>
