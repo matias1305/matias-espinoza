@@ -180,16 +180,22 @@
 			<div class="row contacto justify-content-center">
 				<div class="col-12 col-lg-8" id="acontacto">
 					<h2 class="titulo"> Contacto </h2>
-					<form action="" class="formulario">
+					
+					<form action="php/enviar.php" method="POST" class="formulario form-contacto" autocomplete="off">
+						
+						<div id="alerta" class="alert d-none" role="alert">
+  							<strong class="respuesta"></strong> <span class="mensaje-alert"></span>
+						</div>
+
 						<div class="row form-group">
 							<div class="col-12 col-md-6 wow slideInLeft">
-								<input type="text" name="nombre" placeholder="Nombre">
+								<input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
 							</div>
 							<div class="col-12 col-md-6 wow slideInRight">
-								<input type="email" name="email" placeholder="email">
+								<input type="email" name="email" id="email" placeholder="email" required>
 							</div>
 						</div>
-						<textarea class="wow slideInUp" name="mensaje" placeholder="Correo"></textarea>
+						<textarea class="wow slideInUp" name="mensaje" id="mensaje" placeholder="Escriba su mensaje" required></textarea>
 						<div class="form-group d-flex justify-content-center wow slideInUp">
 							<input type="submit" class="boton" value="Enviar">
 						</div>
@@ -241,5 +247,6 @@
 	<script src="assets/js/modal-img.js">                   </script>
 	<script src="assets/js/wow-init.js">                    </script>
 	<script src="assets/js/scroll.js">                      </script>
+	<script src="assets/js/validar-form.js">                </script>
 </body>
 </html>
