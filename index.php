@@ -141,7 +141,7 @@
 						Python, Firebase, Google Cloud Platform, MongoDB, MySQL, Oracle, entre otras.
 					</p>
 					<p class="resumen">
-						Desarrollo de aplicaciones web y movil.
+						Desarrollo de aplicaciones web y móvil.
 					</p>
 
 					<p class="label wow rollIn">HTML</p>
@@ -159,7 +159,7 @@
 						<div class="progress-bar progress-bar-striped bg-info" style="width: 90%;"></div>
 					</div>
 
-					<p class="label wow rollIn">JS</p>
+					<p class="label wow rollIn">Javascript</p>
 					<div class="progress wow slideInRight">
 						<div class="progress-bar progress-bar-striped bg-warning" style="width: 100%;"></div>
 					</div>
@@ -192,7 +192,7 @@
 								<input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
 							</div>
 							<div class="col-12 col-md-6 wow slideInRight">
-								<input type="email" name="email" id="email" placeholder="email" required>
+								<input type="email" name="email" id="email" placeholder="Email" required>
 							</div>
 						</div>
 						<textarea class="wow slideInUp" name="mensaje" id="mensaje" placeholder="Escriba su mensaje" required></textarea>
