@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Portafolio - Matías Espinoza</title>
+	<meta name="keywords" content="diseno web, desarrollador web, paginas web, aplicaciones web,
+											 aplicaciones moviles, desarrollo web, desarrollo movil, diseno movil, css, 
+											 javascript, angular, ionic, php, nodejs">
+	<meta name="description" content="desarrollador de aplicaciones web y moviles responsive desing, utilizando angular, ionic, php, scss, css, nodejs, entre otras">
+	<meta name="author" content="Matias Espinoza">
+
+	<title>Matías Espinoza - Desarrollo WEB</title>
 	<link rel="shortcut icon" href="assets/images/me.png"/>
 
 	<!-- Styles -->
@@ -15,9 +22,9 @@
 
 <body>
 	<header class="wow fadeIn">
-		<div class="container-fluid">
+		<section class="container-fluid">
 			<!-- Barra logo + Menu -->
-			<div class="row nav rounded-top aling-items-stretch justify-content-between">
+			<article class="row nav rounded-top aling-items-stretch justify-content-between">
 				<!-- Logotipo -->
 				<div class="col-md-12 col-lg logo d-flex align-items-center justify-content-center justify-content-lg-start wow slideInLeft">
 					<img src="./assets/images/me.png" alt="matias-espinoza" class="img-fluid icono">
@@ -26,6 +33,7 @@
 				</div>
 
 				<!-- Menu de navegacion -->
+				
 				<nav class="col-md-12 col-lg-auto menu d-flex align-items-stretch flex-wrap flex-sm-nowrap wow lightSpeedIn">
 					<a href="#aportafolio" class="c-1 d-flex align-items-center">
 						<div class="d-flex flex-column text-center">
@@ -48,10 +56,11 @@
 						</div>
 					</a>
 				</nav>
-			</div>
+			
+			</article>
 
 			<!-- Slider -->
-			<div class="row slider">
+			<article class="row slider">
 				<div class="col wow fadeIn">
 					<div class="carousel slide" id="slider" data-ride="carousel">
 						<ol class="carousel-indicators">
@@ -86,14 +95,14 @@
 						</a>
 					</div>
 				</div>
-			</div>
-		</div>
+			</article>
+		</section>
 	</header>
 
 	<main class="wow fadeIn">
 		<div class="container-fluid">
 			<!-- Seccion de portafolio -->
-			<div class="row portafolio" id="aportafolio">
+			<section class="row portafolio" id="aportafolio">
 				<div class="col">
 					<h2 class="titulo"> Portafolio </h2>
 					<div class="row galeria justify-content-center wow zoomIn">
@@ -121,16 +130,16 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 
-			<div class="row acerca-de align-items-center">
-				<div class="col-12 col-lg-4 foto wow bounceInUp">
+			<section class="row acerca-de align-items-center">
+				<article class="col-12 col-lg-4 foto wow bounceInUp">
 					<img src="./assets/images/matias-espinoza.png" 
 						  alt="Matias Espinoza - Desarrollador Web" 
 						  class="rounded-circle img-fluid">
 					<p class="nombre">Matías Espinoza</p>
-				</div>
-				<div class="col-12 col-lg-8 info" id="aacercaDe">
+				</article>
+				<article class="col-12 col-lg-8 info" id="aacercaDe">
 					<h2 class="titulo">Acerca de</h2>
 					<p class="resumen">
 						Estudiante de ingeniería en computación e informática.
@@ -173,11 +182,11 @@
 					<div class="progress wow slideInRight">
 						<div class="progress-bar progress-bar-striped bg-danger" style="width: 85%;"></div>
 					</div>
-				</div>
-			</div>
+				</article>
+			</section>
 
 			<!-- Seccion Contacto -->
-			<div class="row contacto justify-content-center">
+			<address class="row contacto justify-content-center">
 				<div class="col-12 col-lg-8" id="acontacto">
 					<h2 class="titulo"> Contacto </h2>
 					
@@ -202,7 +211,7 @@
 					</form>
 				</div>
 			</div>
-		</div>
+		</addres>
 	</main>
 
 	<footer class="wow fadeIn">
